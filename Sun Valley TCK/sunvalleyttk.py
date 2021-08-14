@@ -10,7 +10,6 @@ big_frame = ttk.Frame(root)
 big_frame.pack(fill="both", expand=True)
 
 # Set the initial theme
-# root.tk.call("source", "D:\VCode\Python 2021\Sun Valley TCK\sun-valley.tcl")
 root.tk.call("source", "sun-valley.tcl")
 root.tk.call("set_theme", "light")
 
